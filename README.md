@@ -1,5 +1,5 @@
 # ManolOnline
 
-Negozio demo: base pizza cotta al 90% + kit condimento.
+Negozio demo: base pizza cotta al 90% e condimento.
 
 Apri index.html oppure, dopo GitHub Pages, il sito pubblicato.

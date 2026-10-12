@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ManolOnline — Base pizza + kit</title>
-<meta name="description" content="Una sola base rotonda cotta al 90% e il kit del gusto che scegli. In quattro minuti nel forno di casa.">
+<title>ManolOnline — Base pizza e condimento</title>
+<meta name="description" content="Una sola base rotonda cotta al 90% e il condimento del gusto che scegli. In quattro minuti nel forno di casa.">
 <meta name="theme-color" content="#f3eee6">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -103,7 +103,7 @@ textarea { min-height:90px; }
   <section class="wrap hero">
     <div>
       <p class="kicker">Base cotta al 90%</p>
-      <h1>La base.<br>Il kit.</h1>
+      <h1>La base.<br>Il gusto.</h1>
       <p class="lead">Una sola pizza rotonda, un solo formato. Scegli il gusto: ti arriva la base già cotta e il condimento pesato. Quattro minuti a 220°.</p>
       <div class="actions">
         <a class="cta" href="#gusti" style="display:inline-flex;align-items:center;text-decoration:none">Scegli il gusto</a>
@@ -111,7 +111,7 @@ textarea { min-height:90px; }
       </div>
     </div>
     <div>
-      <div class="frame"><img src="media/base.jpg" alt="Base pizza rotonda cotta al novanta per cento"></div>
+      <div class="frame"><img src="https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/base.jpg" alt="Base pizza rotonda cotta al novanta per cento"></div>
       <p class="note">Impasto rotondo · un formato · cottura al 90% prima della spedizione</p>
     </div>
   </section>
@@ -119,19 +119,19 @@ textarea { min-height:90px; }
   <div class="ticker"><div class="track" id="track"></div></div>
 
   <section class="wrap section" id="gusti">
-    <p class="kicker">I kit</p>
-    <h2>Ogni gusto è base + condimento</h2>
+    <p class="kicker">I gusti</p>
+    <h2>Ogni gusto è base e condimento</h2>
     <div class="grid" id="grid"></div>
   </section>
 
   <section class="ink" id="come">
     <div class="wrap split section">
-      <img src="media/oven.jpg" alt="Pizza nel forno di casa" style="border-radius:22px;aspect-ratio:3/2;object-fit:cover;width:100%">
+      <img src="https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/oven.jpg" alt="Pizza nel forno di casa" style="border-radius:22px;aspect-ratio:3/2;object-fit:cover;width:100%">
       <div>
         <p class="kicker">Quattro minuti</p>
         <h2>Il forno di casa fa il resto</h2>
         <ol class="muted">
-          <li>1. Scegli il kit. La base è sempre la stessa, rotonda, un formato.</li>
+          <li>1. Scegli il gusto. La base è sempre la stessa, rotonda, un formato.</li>
           <li>2. Arrivano base cotta al 90% e condimenti già divisi.</li>
           <li>3. Condisci, inforna a 220° per circa 4 minuti.</li>
         </ol>
@@ -147,7 +147,7 @@ textarea { min-height:90px; }
   <div class="wrap split" style="padding:40px 0">
     <div>
       <p class="logo">ManolOnline</p>
-      <p class="muted">Una base rotonda, cotta al 90%. Il gusto lo metti tu, con il kit già pesato.</p>
+      <p class="muted">Una base rotonda, cotta al 90%. Il gusto lo metti tu, con il condimento già pesato.</p>
     </div>
     <p class="muted">Spedizione 6,90 € sotto i 45 €. Sopra, è inclusa. Codice MANOL −10%.</p>
   </div>
@@ -170,12 +170,12 @@ textarea { min-height:90px; }
 
 <script>
 const kits = [
-  { slug:"margherita", name:"Margherita", tag:"Classica", blurb:"Pomodoro, fior di latte e basilico.", includes:["Base cotta al 90%","Passata","Fior di latte","Basilico"], price:1290, image:"media/margherita.jpg" },
-  { slug:"diavola", name:"Diavola", tag:"Piccante", blurb:"Salame piccante e olio al peperoncino.", includes:["Base cotta al 90%","Passata","Fior di latte","Salame piccante"], price:1450, image:"media/diavola.jpg" },
-  { slug:"marinara", name:"Marinara", tag:"Senza mozzarella", blurb:"Aglio, origano e olio.", includes:["Base cotta al 90%","Passata","Aglio","Origano e olio"], price:1190, image:"media/marinara.jpg" },
-  { slug:"quattro-formaggi", name:"Quattro formaggi", tag:"Bianca", blurb:"Quattro formaggi, senza pomodoro.", includes:["Base cotta al 90%","Fior di latte","Gorgonzola","Fontina e grana"], price:1490, image:"media/formaggi.jpg" },
-  { slug:"capricciosa", name:"Capricciosa", tag:"Ricca", blurb:"Prosciutto, funghi, carciofi e olive.", includes:["Base cotta al 90%","Pomodoro e fior di latte","Prosciutto","Funghi, carciofi, olive"], price:1590, image:"media/capricciosa.jpg" },
-  { slug:"degustazione", name:"Box degustazione", tag:"Quattro gusti", blurb:"Quattro basi e quattro kit. Spedizione inclusa.", includes:["4 basi","4 kit","Istruzioni"], price:4690, image:"media/box.jpg", box:true }
+  { slug:"margherita", name:"Margherita", tag:"Classica", blurb:"Pomodoro, fior di latte e basilico.", includes:["Base cotta al 90%","Passata","Fior di latte","Basilico"], price:1290, image:"https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/margherita.jpg" },
+  { slug:"diavola", name:"Diavola", tag:"Piccante", blurb:"Salame piccante e olio al peperoncino.", includes:["Base cotta al 90%","Passata","Fior di latte","Salame piccante"], price:1450, image:"https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/diavola.jpg" },
+  { slug:"marinara", name:"Marinara", tag:"Senza mozzarella", blurb:"Aglio, origano e olio.", includes:["Base cotta al 90%","Passata","Aglio","Origano e olio"], price:1190, image:"https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/marinara.jpg" },
+  { slug:"quattro-formaggi", name:"Quattro formaggi", tag:"Bianca", blurb:"Quattro formaggi, senza pomodoro.", includes:["Base cotta al 90%","Fior di latte","Gorgonzola","Fontina e grana"], price:1490, image:"https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/formaggi.jpg" },
+  { slug:"capricciosa", name:"Capricciosa", tag:"Ricca", blurb:"Prosciutto, funghi, carciofi e olive.", includes:["Base cotta al 90%","Pomodoro e fior di latte","Prosciutto","Funghi, carciofi, olive"], price:1590, image:"https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/capricciosa.jpg" },
+  { slug:"degustazione", name:"Box degustazione", tag:"Quattro gusti", blurb:"Quattro basi e quattro condimenti. Spedizione inclusa.", includes:["4 basi","4 condimenti","Istruzioni"], price:4690, image:"https://raw.githubusercontent.com/gheocapaula1000-code/manolonline/main/media/box.jpg", box:true }
 ];
 const euro = (c) => new Intl.NumberFormat("it-IT",{style:"currency",currency:"EUR"}).format(c/100);
 const key = "manol-cart";
@@ -199,8 +199,8 @@ function render() {
   const box = document.getElementById("lines");
   box.innerHTML = state.lines.length ? state.lines.map(l => {
     const k = find(l.slug); if (!k) return "";
-    return `<div class="line"><img src="${k.image}" alt=""><div><strong>${k.name}</strong><div class="muted">Base + kit · ${euro(k.price)}</div><div class="qty"><button type="button" data-q="${k.slug}" data-d="-1">−</button><span>${l.qty}</span><button type="button" data-q="${k.slug}" data-d="1">+</button></div></div></div>`;
-  }).join("") : `<p class="muted">Ancora vuoto. Scegli un kit: la base è già dentro.</p>`;
+    return `<div class="line"><img src="${k.image}" alt=""><div><strong>${k.name}</strong><div class="muted">Base e condimento · ${euro(k.price)}</div><div class="qty"><button type="button" data-q="${k.slug}" data-d="-1">−</button><span>${l.qty}</span><button type="button" data-q="${k.slug}" data-d="1">+</button></div></div></div>`;
+  }).join("") : `<p class="muted">Ancora vuoto. Scegli un gusto: la base è già dentro.</p>`;
   box.querySelectorAll("[data-q]").forEach(btn => btn.onclick = () => {
     const line = state.lines.find(l => l.slug === btn.dataset.q);
     qty(btn.dataset.q, (line?.qty || 1) + Number(btn.dataset.d));
@@ -225,13 +225,13 @@ function render() {
       </form>
       <aside class="card pad">
         <h3>Il tuo ordine</h3>
-        ${list || '<p class="muted">Nessun kit.</p>'}
+        ${list || '<p class="muted">Nessun gusto.</p>'}
         <div style="display:flex;gap:8px;margin-top:12px">
           <input id="code" placeholder="Codice MANOL" value="${state.code}" style="border-radius:999px">
           <button class="cart-btn" type="button" id="apply">Applica</button>
         </div>
         <div class="totals">
-          <div><span>Kit</span><span>${euro(g)}</span></div>
+          <div><span>Gusti</span><span>${euro(g)}</span></div>
           <div><span>Sconto</span><span>− ${euro(discount)}</span></div>
           <div><span>Spedizione</span><span>${shipping ? euro(shipping) : "Inclusa"}</span></div>
           <div><strong>Totale</strong><strong>${euro(total)}</strong></div>
@@ -272,9 +272,9 @@ document.getElementById("box").innerHTML = `
     <p style="font-family:Fraunces,serif;font-size:42px;color:var(--clay);margin:12px 0">${euro(box.price)}</p>
     <button class="cta clay" type="button" id="addBox">Aggiungi il box</button>
   </div>
-  <img src="${box.image}" alt="Box con base e kit" style="border-radius:22px;width:100%;aspect-ratio:4/3;object-fit:cover">`;
+  <img src="${box.image}" alt="Box con base e condimenti" style="border-radius:22px;width:100%;aspect-ratio:4/3;object-fit:cover">`;
 document.getElementById("addBox").onclick = () => add(box.slug);
-document.getElementById("track").textContent = Array.from({length:2}, () => "Margherita   ·   Diavola   ·   Marinara   ·   Quattro formaggi   ·   Capricciosa   ·   Base + kit   ·   ").join("");
+document.getElementById("track").textContent = Array.from({length:2}, () => "Margherita   ·   Diavola   ·   Marinara   ·   Quattro formaggi   ·   Capricciosa   ·   Base e condimento   ·   ").join("");
 function open(on) { document.getElementById("overlay").classList.toggle("open", on); }
 document.getElementById("openCart").onclick = () => open(true);
 document.getElementById("closeCart").onclick = () => open(false);
